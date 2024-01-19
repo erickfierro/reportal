@@ -4,7 +4,7 @@ Reportal es un proyecto para el reporte y la gestión de inventarios escrito en 
 
 ## Features
 
-- Leer datos desde un archivo
+- Leer datos desde un archivo externo
 - Generar reportes en consola
 - Escribir reportes en un archivo de salida
 
