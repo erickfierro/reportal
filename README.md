@@ -10,7 +10,7 @@ Reportal es un proyecto para el reporte y la gestión de inventarios escrito en 
 
 ## Installation
 
-Descarga el programa [OpenCobolIDE](https://launchpad.net/cobcide/+download) tanto para Windows, GNU/Linux y Mac OSX.
+Descarga el programa [OpenCobolIDE](https://launchpad.net/cobcide/+download) disponible tanto para Windows, GNU/Linux y Mac OSX.
 
 Instalar unicamente el compilador para Linux
 
