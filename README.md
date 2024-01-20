@@ -32,7 +32,7 @@ mkdir bin
 cobc -x -o "bin/NameProgram" NameProgram.cbl
 ```
 
-To run program execute
+To run main program execute
 
 ```bash
 ./bin/MAIN-PROGRAM
