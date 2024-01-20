@@ -18,7 +18,7 @@ Install only the compiler in `GNU/Linux`
 sudo apt-get install gnucobol4
 ```
 
-## Compile program GNU/Linux
+## Compiler program GNU/Linux
 
 To compile the program in the `/bin` folder
 
