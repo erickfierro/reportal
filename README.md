@@ -21,11 +21,13 @@ sudo apt-get install gnucobol4
 ## Compile program GNU/Linux
 
 To compile the program in the `/bin` folder
-```
+
+```bash
 # create folder /bin
 mkdir bin
 ```
-```
+
+```bash
 # compile program
 cobc -x -o "bin/NameProgram" NameProgram.cbl
 ```
@@ -35,6 +37,7 @@ To run program execute
 ```bash
 ./bin/MAIN-PROGRAM
 ```
+
 ## Authors
 
 - [@erickfierro](https://github.com/erickfierro)
