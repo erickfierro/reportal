@@ -27,7 +27,7 @@ cobc -x NameProgram.cbl
 
 Compile executable to a specific path
 ```
-cobc -x "path" NameProgram.cbl
+cobc -x -o "path/NameProgram" NameProgram.cbl
 ```
 
 ## Authors
