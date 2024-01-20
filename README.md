@@ -24,7 +24,8 @@ To compile the program in the `/bin` folder
 ```
 # create folder /bin
 mkdir bin
-
+```
+```
 # compile program
 cobc -x -o "bin/NameProgram" NameProgram.cbl
 ```
