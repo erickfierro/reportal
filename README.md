@@ -22,12 +22,12 @@ sudo apt-get install gnucobol4
 
 Compile executable at current path
 ```bash
-cobc -x NombrePrograma.cbl
+cobc -x NameProgram.cbl
 ```
 
 Compile executable to a specific path
 ```
-cobc -x "path" NombrePrograma.cbl
+cobc -x "path" NameProgram.cbl
 ```
 ## Authors
 
