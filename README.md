@@ -1,23 +1,34 @@
+
 # Reportal
 
-Reportal es un proyecto para el reporte y la gestión de inventarios escrito en lenguaje COBOL.
-
+Reportal is a project for inventory reporting and management written in `COBOL` language.
 ## Features
 
-- Leer invenario desde un archivo externo
-- Generar reportes en consola
+- Read inventory from an external file
+- Generate reports in console
 
-## Installation
+## Compiler Install
 
-Descarga el programa [OpenCobolIDE](https://launchpad.net/cobcide/+download) disponible tanto para Windows, GNU/Linux y Mac OSX.
+Download the program [OpenCobolIDE](https://launchpad.net/cobcide/+download) available for Windows, GNU/Linux and Mac OSX.
 
-Instalar unicamente el compilador para Linux
+Install only the compiler `GNU/Linux`
 
 ```bash
-# instalar gnucobol4
+# install gnucobol4
 sudo apt-get install gnucobol4
 ```
 
+## Compile COBOL Program
+
+Compile executable at current path
+```bash
+cobc -x NombrePrograma.cbl
+```
+
+Compile executable to a specific path
+```
+cobc -x "path" NombrePrograma.cbl
+```
 ## Authors
 
 - [@erickfierro](https://github.com/erickfierro)
