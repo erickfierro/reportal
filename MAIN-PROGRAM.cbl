@@ -20,6 +20,10 @@
       * DESCRIPCION : CREACION DEL PROGRAMA                            *
       * ACTIVIDAD ASOCIADA :                                           *
       *----------------------------------------------------------------*
+      * FECHA       : 20-01-2024                                       *
+      * DESCRIPCION : CREACION DEL MENU PRINCIPAL                      *
+      * ACTIVIDAD ASOCIADA : MENU PRINCIPAL                            *
+      *----------------------------------------------------------------*
 
       *================================================================*
       *                                                                *
@@ -51,6 +55,8 @@
       *----------------------------------------------------------------*
       *                   AREA DE VARIABLES AUXILIARES                 *
       *----------------------------------------------------------------*
+       01 WCH-AUXILIARES.
+           05 WZD-AUX-OPCION              PIC 9(01).
       
       *----------------------------------------------------------------*
       *                        AREA DE CONTADORES                      *
@@ -87,7 +93,28 @@
       * 2000-PROCESO-PROGRAMA                                          * 
       *----------------------------------------------------------------*
        2000-PROCESO-PROGRAMA.
-           CONTINUE
+           PERFORM 2100-MENU-PRINCIPAL
+           EVALUATE WZD-AUX-OPCION
+               WHEN 1
+               WHEN 2
+                   CONTINUE
+           END-EVALUATE
+           .
+
+      *----------------------------------------------------------------*
+      * 2100-MENU-PRINCIPAL                                            * 
+      *    MOSTRAR LAS DIFERENTES OPCIONES DEL PROGRAMA                *
+      *----------------------------------------------------------------*
+       2100-MENU-PRINCIPAL.
+           DISPLAY '*-------------------------------------------------*'
+           DISPLAY '*                   REPORTAL                      *'
+           DISPLAY '*              Inventory software                 *'
+           DISPLAY '*                                                 *'
+           DISPLAY '*  1. Leer archivo externo                        *'
+           DISPLAY '*  2. Generar reporte                             *'
+           DISPLAY '*-------------------------------------------------*'
+           DISPLAY '*  Opcion -> ' WITH NO ADVANCING
+           ACCEPT WZD-AUX-OPCION
            .
 
       *----------------------------------------------------------------*
