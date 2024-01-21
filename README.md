@@ -18,18 +18,26 @@ Install only the compiler in `GNU/Linux`
 sudo apt-get install gnucobol4
 ```
 
-## Compile COBOL program
+## Compiler program GNU/Linux
 
-To compile the program in the `/bin` folder run
+To compile the program in the `/bin` folder
+
+```bash
+# create folder /bin
+mkdir bin
 ```
+
+```bash
+# compile program
 cobc -x -o "bin/NameProgram" NameProgram.cbl
 ```
 
-To run program in `GNU/Linux` execute the following command
+To run main program execute
 
 ```bash
 ./bin/MAIN-PROGRAM
 ```
+
 ## Authors
 
 - [@erickfierro](https://github.com/erickfierro)
