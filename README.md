@@ -29,7 +29,7 @@ mkdir bin
 
 ```bash
 # compile program
-cobc -x -o "bin/NameProgram" NameProgram.cbl
+cobc -x -o bin/NameProgram NameProgram.cbl
 ```
 
 To run main program execute
