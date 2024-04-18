@@ -14,6 +14,9 @@ Download the program [OpenCobolIDE](https://launchpad.net/cobcide/+download) ava
 Install only the compiler in `GNU/Linux`
 
 ```bash
+# downloads and builds a local cache of the list of available
+packages
+sudo apt-get update
 # install gnucobol4
 sudo apt-get install gnucobol4
 ```
